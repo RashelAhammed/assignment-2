@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: Work Sans;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;600;700&display=swap');
 
@@ -84,7 +87,7 @@ nav img {
   background-image: url("images/Group\ 14.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px;
+  padding: 125px 90px;
 }
 .banner-tex h2{
 color: #0B0223;
@@ -194,8 +197,6 @@ line-height: normal;
 .play-text{
   width: 50%;
   text-align: end;
-  padding-bottom: 150px;
-  
 }
 .play-text span{
   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -213,6 +214,7 @@ line-height: 60px;
 }
 .play-img{
   width: 50%;
+  height:100%;
 }
 .play-img-1{
   width: 100%;
@@ -333,6 +335,9 @@ line-height: 60px;
     flex-direction: column-reverse;
     max-width: 576px;
   }
+  .banner-tex{
+    width: 100%;
+  }
   /* online game section  */
   .box img{
     width: 100%;
@@ -340,5 +345,11 @@ line-height: 60px;
   .online-game-box{
     flex-direction: column;
     width: auto;
+  }
+  /* play section start  */
+  .play-container{
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
   }
 }
