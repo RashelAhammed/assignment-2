@@ -175,6 +175,23 @@ line-height: normal;
   height: 290px;
   flex-shrink: 0;
 }
+.box-2:hover{
+  border: 2px solid red;
+  border-radius: 8px;
+}
+.nasted-div{
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  color: white;
+}
+.nasted-div .fa-brands{
+  color: white;
+}
+.nasted-btn{
+  text-decoration: none;
+  color: white;
+}
 .online-game-box{
   display: flex;
   gap: 10px;
@@ -378,7 +395,24 @@ line-height: 60px;
  .footer-text-container{
   flex-wrap: wrap;
  }
-
-
-
+}
+/* media quary for tab  */
+@media screen and (min-width:576px) and (max-width:960px){
+  .nav-container{
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .banner-tex{
+    background-color:white;
+  }
+  .online-game-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+    margin: 0 auto;
+  }
+  .play-container{
+    gap: 80px;
+    height: 80vh;
+  }
 }
