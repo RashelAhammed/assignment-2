@@ -320,7 +320,10 @@ line-height: 60px;
  .footer-icon .fa-brands{
   font-size: 40px;
   margin: 0 30px;
-  color: white;
+  /* color: white; */
+}
+.footer-icon a{
+  text-decoration: none;
 }
 .footer-icon .fa-brands.fa-brands.fa-youtube{
   color: #f10611;
@@ -379,7 +382,7 @@ line-height: 60px;
     text-align: center;
   }
  .play-img{
-  width: 80%;
+  width: 60%;
   margin: 0 50px;
  }
  /* button section  */
