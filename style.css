@@ -342,6 +342,11 @@ line-height: 60px;
   .box img{
     width: 100%;
   }
+  .box{
+    width:80%;
+    height: auto;
+    margin: 0 auto;
+  }
   .online-game-box{
     flex-direction: column;
     width: auto;
@@ -352,4 +357,28 @@ line-height: 60px;
     height: 100%;
     width: 100%;
   }
+  .play-text{
+    width: 100%;
+    text-align: center;
+  }
+ .play-img{
+  width: 80%;
+  margin: 0 50px;
+ }
+ /* button section  */
+ .button-up{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ }
+ .button-down{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ }
+ /* footer section  */
+ .footer-text-container{
+  flex-wrap: wrap;
+ }
+
+
+
 }
