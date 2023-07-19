@@ -81,6 +81,10 @@ nav img {
 .banner-tex {
   width: 50%;
   line-height: 25px;
+  background-image: url("images/Group\ 14.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
 }
 .banner-tex h2{
 color: #0B0223;
@@ -256,7 +260,57 @@ line-height: 60px;
   width: 30px;
   
 }
+/* footer section start  */
+.footer-section{
+  background-color: #0B0223;
+}
 
+.footer-title{
+  display: flex;
+  gap: 15px;
+  padding-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-title img{
+  width: 60px;
+} 
+.footer-title h3{
+  font-size: 28px;
+  font-family: work-sanc;
+  color: white;
+}
+.footer-text-container{
+  max-width: 1000px;
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+ 
+}
+.footer-text-container a{
+  text-decoration: none;
+  color: white;
+}
+.footer-icon{
+  text-align: center;
+  margin: 0 30px;
+  
+}
+ .footer-icon .fa-brands{
+  font-size: 40px;
+  margin: 0 30px;
+  color: white;
+}
+.footer-icon .fa-brands.fa-brands.fa-youtube{
+  color: #f10611;
+}
+.footer-p{
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
+}
 
 /* media quary start  */
 @media screen and (max-width:576px) {
