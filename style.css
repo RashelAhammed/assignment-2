@@ -245,11 +245,9 @@ line-height: 60px;
   right: 75px;
 }
 /* button section start here  */
-.button-section{
-
-}
 .button{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 5px;
@@ -264,19 +262,15 @@ line-height: 60px;
 }
 .button-up{
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   max-width: 1000px;
-  margin: 25px auto;
-  justify-content: space-around;
+  margin: 25px auto; 
+  align-items: center;
+  justify-content: space-evenly;
 }
-.button-down{
-  display: flex;
-  max-width: 1000px;
-  margin: 25px auto;
-  justify-content: space-around;
-}
-
 .button-img{
-  width: 30px;
+  width: 50px;
   
 }
 /* footer section start  */
@@ -320,7 +314,7 @@ line-height: 60px;
  .footer-icon .fa-brands{
   font-size: 40px;
   margin: 0 30px;
-  /* color: white; */
+  
 }
 .footer-icon a{
   text-decoration: none;
@@ -388,7 +382,7 @@ line-height: 60px;
  /* button section  */
  .button-up{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(3,1fr);
  }
  .button-down{
   display: grid;
