@@ -87,6 +87,7 @@ nav img {
   background-image: url("images/Group\ 14.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   padding: 125px 90px;
 }
 .banner-tex h2{
@@ -398,9 +399,6 @@ line-height: 60px;
   .nav-container{
     max-width: 960px;
     margin: 0 auto;
-  }
-  .banner-tex{
-    background-color:white;
   }
   .online-game-box{
     display: grid;
